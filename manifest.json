@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Pino",
+    "version": "1.0.0",
+    "description": "A Chrome extension to motivate users.",
+    "action": {
+        "default_popup": "index.html"
+        
+    },
+    "permissions": ["storage"],
+    "background": {
+        "service_worker": "src/scripts/background.js"
+    }
+}
