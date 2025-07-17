@@ -13,7 +13,7 @@ function Input() {
 
   return (
     <>
-      {/* Button to open API key panel */}
+      {/* Button to gemini API key panel */}
       {!showPanel && (
         <button
           className="bg-slate-600 text-gray-800 font-bold px-4 py-1 rounded-sm hover:invert"
@@ -34,7 +34,7 @@ function Input() {
             ×
           </div>
 
-          <label htmlFor="apikey">Enter your OpenAI key:</label>
+          <label htmlFor="apikey">Enter your Gemini API key:</label>
 
           <input
             type="password"
